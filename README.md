@@ -346,7 +346,7 @@ server1.tp6.b1.         604800  IN      A       10.6.202.10
 ;; MSG SIZE  rcvd: 97
 ```
 
-* `dig -x 10.6.201.10`
+- `dig -x 10.6.201.10`
 ```
 [user@client1 ~]$ dig -x 10.6.201.10
 
@@ -377,7 +377,7 @@ server1.tp6.b1.         604800  IN      A       10.6.202.10
 ;; MSG SIZE  rcvd: 119
 ```
 
-* `ping client2.tp6.b1`
+-  `ping client2.tp6.b1`
 ```
 [user@client1 ~]$ ping client2.tp6.b1
 PING client2.tp6.b1 (10.6.201.10) 56(84) bytes of data.
@@ -392,7 +392,7 @@ rtt min/avg/max/mdev = 0.031/0.046/0.076/0.019 ms
 ```
 
 ### 5. Serveur NTP
-* server1
+- server1
 ```
 [user@server1 ~]$ chronyc tracking
 Reference ID    : 7F7F0101 ()
@@ -410,7 +410,7 @@ Update interval : 0.0 seconds
 Leap status     : Normal
 ```
 
-* client1
+- client1
 ```
 [user@client1 ~]$ chronyc tracking
 Reference ID    : 7F7F0101 ()
